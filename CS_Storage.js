@@ -47,7 +47,7 @@ var CS_Storage = (function () {
 			data = localStorage[ key ];
 			return JSON.parse( data );
 		},
-
+		
 		/**
 		 * OverWrite : completely rewrites the value of a give key, if key exists.
 		 * If key does not exist, a document will be created
